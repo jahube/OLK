@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Outlook\AutoDiscover]
+
+"ExcludeExplicitO365Endpoint"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\16.0\Outlook\AutoDiscover]
+
+"ExcludeExplicitO365Endpoint"=dword:00000000
+
+
