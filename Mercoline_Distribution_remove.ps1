@@ -1,7 +1,7 @@
 
-$Domain_before = "meroline.de"
+$Domain_before = "mercoline.de"
 
-$Domain_after = "mercoline-mcl.de"
+$Domain_after = "mercoline-edi.de"
 
 $groups = get-distributiongroup -ResultSize unlimited -organizationalunit "OU=_Mercoline_Verteilerlisten,DC=mercoline,DC=local"
 
