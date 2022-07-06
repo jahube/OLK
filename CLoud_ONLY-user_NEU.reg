@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Outlook\AutoDiscover]
+"ExcludeScpLookup"=dword:00000001
+"ExcludeHttpRedirect"=dword:00000001
+"ExcludeHttpsAutoDiscoverDomain"=dword:00000001
+"ExcludeHttpsRootDomain"=dword:00000001
+"PreferLocalXML"=dword:00000000
+"ExcludeSrvRecord"=dword:00000001
+"ExcludeLastKnownGoodURL"=dword:00000000
+"ExcludeExplicitO365Endpoint"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Outlook\AutoDiscover\RedirectServers]
+"autodiscover-s.outlook.com"=hex(0):
+"autodiscover-s.outlook.de"=hex(0):
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Exchange]
+
+"AlwaysUseMSOAuthForAutoDiscover "=dword:00000001
